@@ -1,0 +1,88 @@
+body{
+   background-color: lightgray;
+}
+
+.container{
+   width: 1000px;
+   height: 600px;
+   position: relative;
+   margin: 16px auto;
+}
+
+.headerContainer{
+   display: flex;
+   width: 1000px;
+   height: 360px;
+   background-color:  #FFCD9E;
+}
+
+.headerLeft {
+   width: 600px;
+   height: 360px;
+   padding: 20px;
+}
+
+.headerRight{
+   width: 400px;
+   height: 360px;
+   padding: 20px;
+}
+
+.footerContainer{
+   display: flex;
+   width: 1000px;
+   height: 240px;
+   background-color: #282828;
+   color: #ffffff;
+}
+
+.ftLeft{
+   height: 240px;
+   width: 500px;
+   text-align: left;
+   padding: 20px;
+   text-align: center;
+}
+
+.ftRight{
+   height: 240px;
+   width: 500px;
+   text-align: center;
+   padding: 20px;
+}
+
+.man{
+   width: 300px;
+   height: 300px;
+}
+
+button{
+   background-color:#282828;
+   color: #ffffff;
+}
+
+.spam{
+   color: #ffffff;
+   margin-left: 16px;
+}
+
+.insta, .linkedin{
+   height: 24px;
+   width: 24px;
+}
+
+.registerBtn{
+   border-radius: 4px;
+   padding: 8px;
+   margin-left: 8px;
+}
+
+.emailInput{
+   padding: 8px;
+   border-radius: 4px;
+   border: 2px solid ;
+}
+
+.form{
+   margin: 16px 0;
+}
